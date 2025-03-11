@@ -1,0 +1,71 @@
+print("1. eur to usd")
+print("2. eur to yen")
+print("3. eur to ruble")
+print("4. eur to swediska krona")
+print("5. eur to australia dolar")
+print("6. eur to brit pound")
+print("7. eur to zlotai")
+print("8. eur to dirham")
+print("9. eur to turkijos lira")
+print("10. eur to indian rupee")
+print("11. eur to Argentine Peso")
+
+valiuta1 = int(input("ivesk valiuta: "))
+
+if valiuta1 == 1:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 1.09
+    print(valiuta)
+
+elif valiuta1 == 2:
+    valiuta1 = float(input("viesk kiek euriuku: "))
+    valiuta = valiuta1 * 161.48
+    print(valiuta)
+
+elif valiuta1 == 3:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 93.56
+    print(valiuta)
+
+elif valiuta1 == 4:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 10.96
+    print(valiuta)
+
+elif valiuta1 == 5:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 1.74
+    print(valiuta)
+
+elif valiuta1 == 6:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 0.84
+    print(valiuta)
+
+elif valiuta1 == 7:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 4.20
+    print(valiuta)
+
+elif valiuta1 == 8:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 4.01
+    print(valiuta)
+
+elif valiuta1 == 9:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 39.99
+    print(valiuta)
+
+elif valiuta1 == 10:
+    valiuta1 - float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 95.30
+    print(valiuta)
+
+elif valiuta1 == 11:
+    valiuta1 = float(input("ivesk kiek euriuku: "))
+    valiuta = valiuta1 * 1164.54
+    print(valiuta)
+
+else:
+    print("nera tokios valiutos")
